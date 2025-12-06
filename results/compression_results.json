@@ -1,0 +1,50 @@
+[
+  {
+    "weight_bits": 32,
+    "accuracy": 92.0,
+    "compression_ratio": 1.02,
+    "model_size_mb": 8.4
+  },
+  {
+    "weight_bits": 16,
+    "accuracy": 92.01,
+    "compression_ratio": 2.03,
+    "model_size_mb": 4.2
+  },
+  {
+    "weight_bits": 12,
+    "accuracy": 92.03,
+    "compression_ratio": 2.71,
+    "model_size_mb": 3.15
+  },
+  {
+    "weight_bits": 8,
+    "accuracy": 92.03,
+    "compression_ratio": 4.06,
+    "model_size_mb": 2.1
+  },
+  {
+    "weight_bits": 6,
+    "accuracy": 91.71,
+    "compression_ratio": 5.42,
+    "model_size_mb": 1.58
+  },
+  {
+    "weight_bits": 4,
+    "accuracy": 86.24,
+    "compression_ratio": 8.12,
+    "model_size_mb": 1.05
+  },
+  {
+    "weight_bits": 3,
+    "accuracy": 5.35,
+    "compression_ratio": 10.83,
+    "model_size_mb": 0.79
+  },
+  {
+    "weight_bits": 2,
+    "accuracy": 10.0,
+    "compression_ratio": 16.24,
+    "model_size_mb": 0.53
+  }
+]
