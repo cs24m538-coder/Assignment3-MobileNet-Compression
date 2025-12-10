@@ -36,6 +36,7 @@ python test.py --bits 8
 
 # 3. Run all experiments
 python run_experiments.py
+
 Expected Results with Placeholder Model:
 
 Accuracy: ~10% (random guessing, CIFAR-10 has 10 classes)
