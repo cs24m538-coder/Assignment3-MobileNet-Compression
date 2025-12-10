@@ -1,18 +1,15 @@
-# CS6886 Assignment 3: MobileNet-v2 Compression on CIFAR-10
+CS6886 Assignment 3: MobileNet-v2 Compression on CIFAR-10
 
-- **GitHub Repository:** https://github.com/cs24m538-coder/Assignment3-MobileNet-Compression
+GitHub Repository: https://github.com/cs24m538-coder/Assignment3-MobileNet-Compression
 
 ## Assignment Overview
 This project implements custom model compression for MobileNet-v2 on CIFAR-10 using symmetric uniform quantization implemented from scratch. The assignment evaluates compression-accuracy trade-offs across 8 bit-width configurations (32-bit to 2-bit).
-📋 Complete Clean README.md:
-Here's the entire README with clean formatting:
-
 
 ## 📊 Results Summary
-- **Baseline accuracy:** 92.17%
-- **8-bit quantization:** 92.03% accuracy, 4.06x compression
-- **Final model size:** 2.10 MB (reduced from 8.40 MB)
-- **Best configuration:** 8-bit quantization
+- Baseline accuracy: 92.17%
+- 8-bit quantization: 92.03% accuracy, 4.06x compression
+- Final model size: 2.10 MB (reduced from 8.40 MB)
+- Best configuration: 8-bit quantization
 
 ### Compression Results
 | Bits | Accuracy | Compression Ratio | Model Size |
@@ -26,12 +23,10 @@ Here's the entire README with clean formatting:
 | 3    | 5.35%    | 10.83x            | 0.79 MB    |
 | 2    | 10.00%   | 16.24x            | 0.53 MB    |
 
-⚠️ **Important Note on Reproducibility**
-
-Due to GitHub's 100MB file size limit, the trained MobileNet-v2 model (89MB) is not included in this repository. 
+## ⚠️ Important Note on Reproducibility
+Due to GitHub's 100MB file size limit, the trained MobileNet-v2 model (89MB) is not included in this repository.
 
 ### To Test the Compression Pipeline:
-
 ```bash
 # 1. Create placeholder model files (for testing only)
 python create_model.py
@@ -51,10 +46,9 @@ All 8 bit-widths tested successfully
 
 Note: The results in the table above (92.17% accuracy, etc.) are from the actual trained model trained for 120 epochs. The placeholder model demonstrates the compression implementation works correctly.
 
-## 🚀 Quick Start
-
-### 1. Install Dependencies
-```bash
+🚀 Quick Start
+1. Install Dependencies
+bash
 pip install -r requirements.txt
 2. Train Baseline Model
 bash
@@ -80,7 +74,6 @@ Assignment3-MobileNet-Compression/
 ├── requirements.txt                # Dependencies
 ├── README.md                       # This file
 └── parallel_coordinates_plot.png   # Required plot
-
 🔧 Implementation
 Quantization: Symmetric uniform (implemented from scratch)
 
