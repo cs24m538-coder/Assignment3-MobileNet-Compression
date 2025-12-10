@@ -46,9 +46,10 @@ All 8 bit-widths tested successfully
 
 Note: The results in the table above (92.17% accuracy, etc.) are from the actual trained model trained for 120 epochs. The placeholder model demonstrates the compression implementation works correctly.
 
-🚀 Quick Start
-1. Install Dependencies
-bash
+## 🚀 Quick Start
+
+### 1. Install Dependencies
+```bash
 pip install -r requirements.txt
 2. Train Baseline Model
 bash
